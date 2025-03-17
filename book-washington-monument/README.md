@@ -7,15 +7,18 @@ The bookmarklet reduces the number of clicks required to put tickets in your car
 ## Usage
 
 First, check the bookmarklet still works:
+
 1. Go to https://www.recreation.gov/ticket/234635/ticket/193?date=2025-03-19 (update the date to the date you want)
 1. Paste the text of `bookmarklet.js` into a console window. It should update the "quantity" field to 2 and output "Done" in the terminal with no errors.
 
 Assuming everything's working, you can now create a bookmarklet:
+
 1. Edit the code in `bookmarklet.js` to set the quantity of tickets you want, and the time you want them
 1. Minify the code using https://www.minifier.org or another service
 1. Create a bookmarklet in yout browser with the minified code as the URL
 
 Finally, you're ready to book tickets the moment they go on sale:
+
 1. Go to https://www.recreation.gov/ticket/234635/ticket/193?date=2025-03-19 (update the date to the date you want) at 9:58am ET the day / month before you want the tickets for
 1. Refresh furiously until the tickets are available
 1. Click the bookmarklet, which will grab the tickets for you
@@ -25,7 +28,7 @@ The above should give you a good chance of getting tickets. If it doesn't work y
 
 ## Extensions
 
-* This could be turned into a script using browser automation, removing the need for the user to be present at all.
-* It's probably also possible to use the reservation.gov's APIs directly
+- This could be turned into a script using browser automation, removing the need for the user to be present at all.
+- It's probably also possible to use the reservation.gov's APIs directly
 
 Both of the above feel like overkill for a one-off task like this. They're also more likely to help scalpers than visitors, so I'm not going to implement them.
