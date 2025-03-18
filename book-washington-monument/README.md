@@ -6,10 +6,10 @@ The bookmarklet reduces the number of clicks required to put tickets in your car
 
 ## Usage
 
-First, check the bookmarklet still works:
+First, check the bookmarklet still works. I wrote this as a one-off script, and am not planning to maintain it:
 
-1. Go to https://www.recreation.gov/ticket/234635/ticket/193?date=2025-03-19 (update the date to the date you want)
-1. Paste the text of `bookmarklet.js` into a console window. It should update the "quantity" field to 2 and output "Done" in the terminal with no errors.
+1. Go to http://recreation.gov/ticket/10089018/ticket/10089019?date=2025-03-24 (update the date to one that has some availability at 2pm)
+1. Paste the text of `bookmarklet.js` into a console window. It should immediately take you to the checkout page, with two tickets in your basket (for a tour of Federal Hall in New York, which isn't what you want).
 
 Assuming everything's working, you can now create a bookmarklet:
 
