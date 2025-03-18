@@ -15,7 +15,7 @@ Assuming everything's working, you can now create a bookmarklet:
 
 1. Edit the code in `bookmarklet.js` to set the quantity of tickets you want, and the time you want them
 1. Minify the code using https://www.minifier.org or another service
-1. Create a bookmarklet in yout browser with the minified code as the URL
+1. Create a bookmarklet in your browser with the minified code as the URL
 
 Finally, you're ready to book tickets the moment they go on sale:
 
