@@ -86,6 +86,7 @@ javascript: (function () {
         for (i = 0; i < inputs.length; i++) {
           if (
             inputs[i].type == "radio" &&
+            !inputs[i].disabled &&
             acceptableInputsOrderedByPreference.includes(inputs[i].value)
           ) {
             filteredInputs.push(inputs[i]);
