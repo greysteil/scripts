@@ -53,7 +53,8 @@ javascript: (function () {
         for (i = 0; i < buttons.length; i++) {
           if (
             buttons[i].className.includes("rec-select") &&
-            buttons[i].textContent == "2 Tickets"
+            buttons[i].textContent ==
+              `${quantity} Ticket${quantity > 1 ? "s" : ""}`
           ) {
             resolve(undefined);
             clearInterval(id);
